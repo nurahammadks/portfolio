@@ -276,6 +276,7 @@
 	}
 	.blog-col-1{
 		height: 550px;
+		width: 60%;
 	}
 	.blog-col-1 .btn a{
 		margin-top: 35px;
@@ -293,7 +294,7 @@
 	}
 	.eged-middle{
 		margin: auto;
-		width: 80%;
+		width: 90%;
 	}
 	.eged-middle img{
 		width: 200px;

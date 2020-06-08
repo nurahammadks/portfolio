@@ -261,4 +261,67 @@
 	.header-menu nav a{
 		width: 25%;
 	}
+	.header-content h1{
+		font-size: 65px;
+	}
+}
+@media screen and (max-width: 450px){
+	.header-content h1{
+		font-size: 50px;
+	}
+	.header-btn a{
+		margin-top: 20px;
+		display: block;
+		width: 28%;
+	}
+	.blog-col-1{
+		height: 550px;
+	}
+	.blog-col-1 .btn a{
+		margin-top: 35px;
+		display: inline-block;
+	}
+	.blog-col-1 .content p{
+		margin-bottom: 15px;
+		margin-top: 20px;
+	}
+	.header-menu nav a{
+		width: 28%;
+	}
+	.right-2{
+		width: 63%;
+	}
+	.eged-middle{
+		margin: auto;
+		width: 80%;
+	}
+	.eged-middle img{
+		width: 200px;
+	}
+	.left-2 h2{
+		width: 100%;
+		font-size: 25px;
+	}
+	.left-2 p{
+		width: 100%;
+		margin: auto;
+	}
+	.left-2 a{
+		margin: auto;
+	}
+	.left-2{
+		width: 100%;
+	}
+	.fotter-last .area-3{
+		margin-left: 40px;
+	}
+	.bg-color{
+		height: 750px;
+	}
+	.header-content{
+		height: 770px;
+	}
+	.header-btn a{
+		font-size: 13px;
+	}
 }

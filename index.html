@@ -9,17 +9,22 @@
         <link rel="manifest" href="site.webmanifest">
         <link rel="apple-touch-icon" href="icon.png">
         <!-- Place favicon.ico in the root directory -->
-        <link rel="stylesheet" href="font-awesome.min.css">
-        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->	
-        <link rel="stylesheet" href="normalize.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="font awesome old/font-awesome.min.css">
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+        <link rel="stylesheet" href="css/animate.css">	
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
     </head>
     <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+		<!-- header area start from here -->
 		<header id="top">
 			<div class="container">
 				<div class="header-top">
-					<h3>EDGPRESS</h3>
+					<h3 class="wow tada">EDGPRESS</h3>
 					<p>Quisque faucibus dui</p>
 				</div>
 				<div class="header-menu">
@@ -27,23 +32,23 @@
 						<i class="fa fa-bars fa-2x"></i>
 					</div>
 					<nav>
-						<a href="x" class="active">home</a>
-						<a href="x">pages</a>
-						<a href="x">dropdown</a>
-						<a href="x">link text</a>
-						<a href="x">link text</a>
-						<a href="x">link text</a>
-						<a href="x">long line text</a>
+						<a href="x" class="active wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">home</a>
+						<a href="x" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">pages</a>
+						<a href="x" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">dropdown</a>
+						<a href="x" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.4s">link text</a>
+						<a href="x" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">link text</a>
+						<a href="x" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.6s">link text</a>
+						<a href="x" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.7s">long line text</a>
 					</nav>
 				</div>
 				<div class="header-content">
 					<div class="bg-color">
-						<h1>tellus malesuada</h1>
-						<p>Mauris ornare laoreet nec aliquet nisi tincidunt quis maecenas tristique.</p>
+						<h1 class="wow slideInLeft" data-wow-duration="1s">tellus malesuada</h1>
+						<p class="wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.5s">Mauris ornare laoreet nec aliquet nisi tincidunt quis maecenas tristique.</p>
 						<div class="header-btn">
 							<menu>
-								<a href="X" class="active-btn">Morbi fringilla</a>
-								<a href="X">Nec convallis</a>
+								<a href="X" class="active-btn  wow slideInRight">Morbi fringilla</a>
+								<a href="X" class="wow slideInRight" data-wow-delay="0.5s">Nec convallis</a>
 							</menu>
 						</div>
 					</div>
@@ -58,46 +63,46 @@
 				<div class="blog-area">
 					<div class="container">
 						<div class="blog-area-top">
-							<h4>Felis leo nunc efficitur</h4>
-							<p>Ut sed dapibus auctor tincidunt nunc rhoncus lacus sollicitudin</p>
+							<h4 class="wow fadeIn" data-wow-duration="1s">Felis leo nunc efficitur</h4>
+							<p class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">Ut sed dapibus auctor tincidunt nunc rhoncus lacus sollicitudin</p>
 						</div>
 						<div class="blog-col">
 							<div class="blog-col-1">
 								<div class="icon">
-									<a href="X"><i class="fa fa-clock-o fa-2x"></i></a>
+									<a class="wow bounceIn" data-wow-duration="1s" href="X"><i class="fa fa-clock-o fa-2x"></i></a>
 									<!-- add an icon -->
 								</div>
 								<div class="content">
 									<h5>Maximus rhoncus</h5>
 									<p>Risus vestibulum pulvinar posuere varius vestibulum nisl arcu mattis vitae est dignissim dictum […]</p>
 								</div>
-								<div class="btn">
+								<div class="btn wow bounceInDown" data-wow-duration="1s" data-wow-delay="0.5s">
 									<a href="X">read more</a>
 								</div>
 							</div>
 							<div class="blog-col-1">
 								<div class="icon">
-									<a href="X"><i class="fa fa-clock-o fa-2x"></i></a>
+									<a href="X" class="wow bounceIn" data-wow-duration="1s"><i class="fa fa-clock-o fa-2x"></i></a>
 									<!-- add an icon -->
 								</div>
 								<div class="content">
 									<h5>Tincidunt lobortis</h5>
 									<p>Viverra ante aliquam ut vestibulum mauris eu pharetra erat et faucibus neque vel aliquam sapien […]</p>
 								</div>
-								<div class="btn">
+								<div class="btn wow bounceInDown" data-wow-duration="1s" data-wow-delay="0.6s">
 									<a href="X">read more</a>
 								</div>
 							</div>
 							<div class="blog-col-1">
 								<div class="icon">
-									<a href="X"><i class="fa fa-clock-o fa-2x"></i></a>
+									<a href="X" class="wow bounceIn" data-wow-duration="1s"><i class="fa fa-clock-o fa-2x"></i></a>
 									<!-- add an icon -->
 								</div>
 								<div class="content">
 									<h5>Sollicitudin sagittis</h5>
 									<p>Etiam egestas luctus lectus sed commodo arcu malesuada quis non iaculis tellus eget facilisis […]</p>
 								</div>
-								<div class="btn">
+								<div class="btn wow bounceInDown" data-wow-duration="1s" data-wow-delay="0.5s">
 									<a href="X">read more</a>
 								</div>
 							</div>
@@ -110,21 +115,21 @@
 			<section class="section-1">
 				<div class="container">
 					<aside class="right">
-						<h5>Diam suspendisse eleifend</h5>
-						<p>Mauris eu ultricies volutpat nulla justo placerat arcu eget iaculis felis nunc sit amet justo in tortor ligula ornare vitae eleifend ac suscipit.</p>
+						<h5 class="wow bounceInRight" data-wow-duration="1s">Diam suspendisse eleifend</h5>
+						<p class="wow bounceInRight" data-wow-duration="1s" data-wow-delay="0.6s">Mauris eu ultricies volutpat nulla justo placerat arcu eget iaculis felis nunc sit amet justo in tortor ligula ornare vitae eleifend ac suscipit.</p>
 						<div class="cheaked-icon">
 							<div class="cheaked-icon-1">
-								<i class="fa fa-check-circle"></i>
+								<i class="fa fa-check-circle wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s"></i>
 								<span>Ultrices leo sed dapibus felis ut urna</span>
 							</div>
 							<div class="cheaked-icon-1">
-								<i class="fa fa-check-circle"></i>
+								<i class="fa fa-check-circle wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s"></i>
 								<span>Lobortis duis nec gravida orci vivamus</span>
 							</div>
 						</div>	
-							<p>Venenatis dapibus enim eget ullamcorper erat fringilla imperdiet etiam felis nisl porttitor fringilla laoreet non ultricies varius dolor maecenas.</p>
+							<p class="wow bounceInRight" data-wow-duration="1s" data-wow-delay=" 0.6s">Venenatis dapibus enim eget ullamcorper erat fringilla imperdiet etiam felis nisl porttitor fringilla laoreet non ultricies varius dolor maecenas.</p>
 							<div class="btn">
-								<a href="X">read more</a>
+								<a href="X" class="wow bounceInDown" data-wow-duration="1s" data-wow-delay="0.9s">read more</a>
 							</div>
 					</aside>
 				</div>
@@ -134,16 +139,16 @@
 			<section class="section-2">
 				<div class="container">
 					<aside class="left-2">
-						<h6>Tristique senectus et netus</h6>
-						<h2>Consectetur accumsan habitant morbi</h2>
-						<p>Sapien etiam vulputate ligula eu felis blandit a efficitur ex consequat aenean id ornare lacus vitae condimentum quam sed varius feugiat elit id tristique etiam non volutpat lorem nulla vitae venenatis augue at fermentum.
+						<h6 class="wow bounceInLeft" data-wow-duration="1s">Tristique senectus et netus</h6>
+						<h2 class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.5s">Consectetur accumsan habitant morbi</h2>
+						<p class="wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.6s">Sapien etiam vulputate ligula eu felis blandit a efficitur ex consequat aenean id ornare lacus vitae condimentum quam sed varius feugiat elit id tristique etiam non volutpat lorem nulla vitae venenatis augue at fermentum.
 							<br>
 						Et fames ac turpis egestas donec eget enim eu neque euismod mollis suspendisse malesuada sed quam ac […]</p>
-						<a href="X">read more</a>
+						<a href="X" class="wow fadeIn" data-wow-duration="1s" data-wow-delay="o.7s">read more</a>
 					</aside>
 					<aside class="right-2">
-						<div class="img">
-							<img src="480x360.png" alt="image placeholder">
+						<div class="img wow bounceInRight" data-wow-duration="1s" data-wow-delay="0.75s">
+							<img src="images/480x360.png" alt="image placeholder">
 							<!-- add 2 image -->
 						</div>
 					</aside>
@@ -153,30 +158,30 @@
 			<section class="client-view">
 				<div class="container color">
 					<div class="client-view-top">
-						<h3>Elementum orci eu nisi porta</h3>
-						<p>Est in condimentum maximus sapien sagittis donec pulvinar sem ac</p>
+						<h3 class="wow fadeIn" data-wow-duration="1s">Elementum orci eu nisi porta</h3>
+						<p class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">Est in condimentum maximus sapien sagittis donec pulvinar sem ac</p>
 					</div>
 					<div class="client-view-middle">
 						<div class="col-1">
-							<div class="img">
-								<img src="100x100.png" alt="Client Image">
+							<div class="img wow fadeIn" data-wow-duration="1s">
+								<img src="images/100x100.png" alt="Client Image">
 								<!-- add an image -->
 							</div>
 							<div class="client-details">
-								<p>Viverra laoreet tellus elit condimentum lectus vitae felis tellus sed ligula morbi porttitor sodales nisl eu posuere proin vel justo ut felis dictum congue id ut enim.</p>
-								<h3>A. Doe</h3>
-								<h5>Nulla maecenas rutrum</h5>
+								<p class="wow bounce" data-wow-duration="1s">Viverra laoreet tellus elit condimentum lectus vitae felis tellus sed ligula morbi porttitor sodales nisl eu posuere proin vel justo ut felis dictum congue id ut enim.</p>
+								<h3 class="wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">A. Doe</h3>
+								<h5 class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">Nulla maecenas rutrum</h5>
 							</div>
 						</div>
 						<div class="col-2">
-							<div class="img">
-								<img src="100x100.png" alt="Client Image">
+							<div class="img wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+								<img src="images/100x100.png" alt="Client Image">
 								<!-- add an image -->
 							</div>
 							<div class="client-details">
-								<p>Vestibulum ut nisl tincidunt venenatis sapien sed maximus elit nulla et magna quis elit consequat aliquet maecenas iaculis sollicitudin magna et tristique orci donec.</p>
-								<h3>B. Doe</h3>
-								<h5>Interdum mattis suspendisse</h5>
+								<p class="wow bounce" data-wow-duration="1s">Vestibulum ut nisl tincidunt venenatis sapien sed maximus elit nulla et magna quis elit consequat aliquet maecenas iaculis sollicitudin magna et tristique orci donec.</p>
+								<h3 class="wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">B. Doe</h3>
+								<h5 class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">Interdum mattis suspendisse</h5>
 							</div>
 						</div>
 					</div>
@@ -187,57 +192,57 @@
 			<section class="eged">
 				<div class="container">
 					<div class="eged-top">
-						<h3>Mauris eget commodo tellus</h3>
-						<p>Imperdiet urna non iaculis vestibulum sapien purus dignissim</p>
+						<h3 class="wow fadeIn" data-wow-duration="1s">Mauris eget commodo tellus</h3>
+						<p class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">Imperdiet urna non iaculis vestibulum sapien purus dignissim</p>
 					</div>
 					<div class="eged-middle">
 						<div class="col-1">
-							<div class="col-img">
-								<a  class="imgover"href="X"><img src="320x220.png" alt="Client Photo"></a>
+							<div class="col-img wow flipInX" data-wow-duration="1s">
+								<a  class="imgover"href="X"><img src="images/320x220.png" alt="Client Photo"></a>
 								<!-- add a image -->
 							</div>
 							<div class="col-content">
-								<h4>Lectus ac eros nullam</h4>
+								<h4 class="wow rollIn" data-wow-duration="1s" data-wow-delay="0.6s">Lectus ac eros nullam</h4>
 								<menu>
 									<ul>
-										<li><a href="X"><i class="fa fa-user"><span>Admin</span></i></a></li>
-										<li><a href="X"><i class="fa fa-tag"><span>Category</span></i></a></li>
-										<li><a href="X"><i class="fa fa-comments"><span>6 Comments</span></i></a></li>
-										<!-- find font awesome code-->
+										<li><a href="X"><i class="fa fa-user wow rollIn" data-wow-duration="1s" data-wow-delay="0.7s"><span>Admin</span></i></a></li>
+										<li><a href="X"><i class="fa fa-tag wow rollIn" data-wow-duration="1s" data-wow-delay="0.8s"><span>Category</span></i></a></li>
+										<li><a href="X"><i class="fa fa-comments wow rollIn" data-wow-duration="1s"  data-wow-delay="0.9s"><span>6 Comments</span></i></a></li>
+										<!-- find font awesome code and past here -->
 									</ul>
 								</menu>
 							</div>
 						</div>
 						<div class="col-1">
-							<div class="col-img">
-								<img src="320x220.png" alt="Client Photo">
+							<div class="col-img wow flipInX" data-wow-duration="1s" data-wow-delay="0.5s">
+								<img src="images/320x220.png" alt="Client Photo">
 								<!-- add a image -->
 							</div>
 							<div class="col-content">
-								<h4>Purus nisl vitae ultrices</h4>
+								<h4 class="wow rollIn" data-wow-duration="1s" data-wow-delay="0.6s">Purus nisl vitae ultrices</h4>
 								<menu>
 									<ul>
-										<li><a href="X"><i class="fa fa-user"><span>Admin</span></i></a></li>
-										<li><a href="X"><i class="fa fa-tag"><span>Category</span></i></a></li>
-										<li><a href="X"><i class="fa fa-comments"><span>8 Comments</span></i></a></li>
-										<!-- find font awesome code-->
+										<li><a href="X"><i class="fa fa-user wow rollIn" data-wow-duration="1s" data-wow-delay="1.1s"><span>Admin</span></i></a></li>
+										<li><a href="X"><i class="fa fa-tag wow rollIn" data-wow-duration="1s" data-wow-delay="1.2s"><span>Category</span></i></a></li>
+										<li><a href="X"><i class="fa fa-comments wow rollIn" data-wow-duration="1s" data-wow-delay="1.3s"><span>8 Comments</span></i></a></li>
+										<!-- find font awesome code and past here -->
 									</ul>
 								</menu>
 							</div>
 						</div>
 						<div class="col-1">
-							<div class="col-img">
-								<img src="320x220.png" alt="Client Photo">
+							<div class="col-img wow flipInX" data-wow-duration="1s" data-wow-delay="0.9s">
+								<img src="images/320x220.png" alt="Client Photo">
 								<!-- add a image -->
 							</div>
 							<div class="col-content">
-								<h4>Eros sollicitudin vel</h4>
+								<h4 class="wow rollIn" data-wow-duration="1s" data-wow-delay="0.4s">Eros sollicitudin vel</h4>
 								<menu>
 									<ul>
-										<li><a href="X"><i class="fa fa-user"><span>Admin</span></i></a></li>
-										<li><a href="X"><i class="fa fa-tag"><span>Category</span></i></a></li>
-										<li><a href="X"><i class="fa fa-comments"><span>10 Comments</span></i></a></li>
-										<!-- find font awesome code -->
+										<li><a href="X"><i class="fa fa-user wow rollIn" data-wow-duration="1s" data-wow-delay="1.5s"><span>Admin</span></i></a></li>
+										<li><a href="X"><i class="fa fa-tag wow rollIn" data-wow-duration="1s" data-wow-delay="1.6s"><span>Category</span></i></a></li>
+										<li><a href="X"><i class="fa fa-comments wow rollIn" data-wow-duration="1s" data-wow-delay="1.7s"><span>10 Comments</span></i></a></li>
+										<!-- find font awesome code and past here -->
 									</ul>
 								</menu>
 							</div>
@@ -252,47 +257,47 @@
 		<section class="fotter-section">
 			<div class="container fotter-half">
 				<div class="fotter-col-1">
-					<h4>Vestibulum ante ipsum primis</h4>
+					<h4 class="wow slideInLeft" data-wow-duration="1s">Vestibulum ante ipsum primis</h4>
 					<div class="icons-and-content">
 						<div class="area-1">
 							<div class="icon">
-								<i class="fa fa-map-marker"></i>
+								<i class="fa fa-map-marker slideInLeft" data-wow-duration="1s"></i>
 								<!-- add an icon -->
 							</div>
 							<div class="content">
-								<p>Street Name & Number, Town, Postcode/Zip</p>
-								<hr>
+								<p class="wow slideInLeft" data-wow-duration="1" data-wow-delay="0.1s">Street Name & Number, Town, Postcode/Zip</p>
+								<hr class="wow slideInLeft" data-wow-duration="1" data-wow-delay="0.2s">
 							</div>
 						</div>
 						<div class="area-2">
 							<div class="icon">
-								<i class="fa fa-phone"></i>
+								<i class="fa fa-phone wow slideInLeft" data-wow-duration="1" data-wow-delay="0.3s"></i>
 								<!-- add an icon -->
 							</div>
 							<div class="content">
-								<p>+00 (123) 456 7890</p>
-								<hr>
+								<p class="wow slideInLeft" data-wow-duration="1" data-wow-delay="0.4s">+00 (123) 456 7890</p>
+								<hr class="wow slideInLeft" data-wow-duration="1" data-wow-delay="0.5s">
 							</div>
 						</div>
 						<div class="area-3">
 							<div class="icon">
-								<i class="fa fa-envelope-o"></i>
+								<i class="fa fa-envelope-o wow slideInLeft" data-wow-duration="1" data-wow-delay="0.6s"></i>
 								<!-- add an icon -->
 							</div>
 							<div class="content">
-								<p>info@domain.com</p>
+								<p class="wow slideInLeft" data-wow-duration="1" data-wow-delay="0.7s">info@domain.com</p>
 							</div>
 						</div>
 						<!-- <nav> -->
 							<div class="fotter-menu">
 								<menu>
 									<ul>
-										<li><a href="X"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="X"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="X"><i class="fa fa-dribbble"></i></a></li>
-										<li><a href="X"><i class="fa fa-linkedin"></i></a></li>
-										<li><a href="X"><i class="fa fa-google-plus"></i></a></li>
-										<li><a href="X"><i class="fa fa-vk"></i></a></li>
+										<li class="wow rollIn" data-wow-duration="1s" data-wow-delay="0.5s"><a href="X"><i class="fa fa-facebook wow rollIn" data-wow-duration="1s" data-wow-delay="1s"></i></a></li>
+										<li class="wow rollIn" data-wow-duration="1s" data-wow-delay="0.8s"><a href="X"><i class="fa fa-twitter wow rollIn" data-wow-duration="1s" data-wow-delay="1.3s"></i></a></li>
+										<li class="wow rollIn" data-wow-duration="1s" data-wow-delay="1.1s"><a href="X"><i class="fa fa-dribbble wow rollIn" data-wow-duration="1s" data-wow-delay="1.6s"></i></a></li>
+										<li  class="wow rollIn" data-wow-duration="1s" data-wow-delay="1.4s"><a href="X"><i class="fa fa-linkedin wow rollIn" data-wow-duration="1s" data-wow-delay="1.9s"></i></a></li>
+										<li class="wow rollIn" data-wow-duration="1s" data-wow-delay="1.7s"><a href="X"><i class="fa fa-google-plus wow rollIn" data-wow-duration="1s" data-wow-delay="2.2s"></i></a></li>
+										<li class="wow rollIn" data-wow-duration="1s" data-wow-delay="2s"><a href="X"><i class="fa fa-vk wow rollIn" data-wow-duration="1s" data-wow-delay="2.5s"></i></a></li>
 									<!-- add icons code -->
 									</ul>
 								</menu>
@@ -301,28 +306,28 @@
  -->					</div>
 				</div>
 				<div class="fotter-col-2">
-					<h4>In faucibus orci luctus</h4>
+					<h4 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.4s">In faucibus orci luctus</h4>
 					<div class="fotter-col-2-link">
-						<a href="X"><h4>Ultrices posuere cubilia</h4></a>
-						<h5>Friday, 6<sup>th</sup> April 2045</h5>
-						<p>Lorem laoreet blandit donec mollis lacinia massa tincidunt malesuada […]</p>
-						<hr>
+						<a href="X" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s"><h4>Ultrices posuere cubilia</h4></a>
+						<h5 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.6s">Friday, 6<sup>th</sup> April 2045</h5>
+						<p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.7s">Lorem laoreet blandit donec mollis lacinia massa tincidunt malesuada […]</p>
+						<hr class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.7s">
 					</div>
 					<div class="fotter-col-2-link">
 						<a href="X">
-							<h4>Curae cras tincidunt eros</h4>
+							<h4 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.9s">Curae cras tincidunt eros</h4>
 						</a>
-						<h5>Thursday, 5<sup>th</sup> April 2045</h5>
-						<p>In id semper turpis in tristique dui ut ac mauris magna nunc eros enim […]</p>
+						<h5 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">Thursday, 5<sup>th</sup> April 2045</h5>
+						<p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s">In id semper turpis in tristique dui ut ac mauris magna nunc eros enim […]</p>
 					</div>
 				</div>
 				<div class="fotter-col-3">
-					<h4>Tincidunt facilisis eros ut</h4>
-					<p>Pulvinar venenatis commodo sed accumsan eu erat nunc ante sagittis a dolor in.</p>
+					<h4 class="wow slideInRight" data-wow-duration="1s" data-wow-delay="1.5s">Tincidunt facilisis eros ut</h4>
+					<p class="wow slideInRight" data-wow-duration="1s" data-wow-delay="1.6s">Pulvinar venenatis commodo sed accumsan eu erat nunc ante sagittis a dolor in.</p>
 					<div class="user-submition">
-						<input type="text" placeholder="Name">
-						<input type="email" placeholder="Email">
-						<input type="submit" value="SUBMIT">
+						<input type="text" placeholder="Name" class="wow slideInRight" data-wow-duration="1s" data-wow-delay="1.7s">
+						<input type="email" placeholder="Email" class="wow slideInRight" data-wow-duration="1s" data-wow-delay="1.8s">
+						<input type="submit" value="SUBMIT" class="wow slideInRight" data-wow-duration="1s" data-wow-delay="1.9s">
 					</div>
 				</div>
 			</div>
@@ -332,12 +337,12 @@
 		<section class="fotter-bottom">
 			<div class="container fotter-last">
 				<div class="area-1">
-					<p>Copyright &copy 2020 - All Rights Reserved - Domain Name</p>
+					<p class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">Copyright &copy 2020 - All Rights Reserved - Domain Name</p>
 				</div>
 				<div class="area-2">
-					<p>Template by OS Templates</p>
+					<p class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1.3s">Template by OS Templates</p>
 				</div>
-				<div class="area-3">
+				<div class="area-3  wow fadeIn" data-wow-duration="1s" data-wow-delay="1.6s">
 					<a id="backtop" class="visible" href="#top"><i class="fa fa-chevron-up"></i></a>
 					<!-- add an icon -->
 				</div>
@@ -345,7 +350,8 @@
 		</section>
 		<!-- fotter bottom stop here -->
         <!-- Add your site or application content here -->
-        <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
-        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
     </body>
 </html>
